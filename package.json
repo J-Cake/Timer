@@ -1,0 +1,13 @@
+{
+    "name": "Timer",
+    "version": "1.0.0",
+    "author": "Jacob Schneider",
+    "license": "MIT",
+    "main": "index.js",
+    "dependencies": {
+        "electron-packager": "^12.1.2"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+}

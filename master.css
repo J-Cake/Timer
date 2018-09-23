@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    user-select: none;
+    font-family: 'Open Sans', 'Segoe UI', 'Arial', 'helvetica', sans-serif;
+
+    outline: none;
+}
+
+body, html {
+    background:#22253a;
+    /* paler blue */
+    overflow: hidden;
+}
+
+.time {
+    font-size: 72pt;
+    color: #fff;
+    text-align: center;
+    line-height: 60vh;
+}
+
+.cycles {
+    width: 100vw;
+    font-size: 32pt;
+    color: #fff;
+    text-align: center;
+    line-height: 10vh;
+}
+
+.option input, .option label {
+    display: inline-block;
+    float: left;
+}
+
+.uibox.wrapper {
+    position: fixed;
+    top: 20px;
+}
+.checkbox {
+    -webkit-appearanc: none;
+    display: block;
+    position: absolute;
+    width: 15px !important;
+    height: 15px;
+    float:right;
+    right: 20px;
+    background: #b72d2d;
+
+    border-radius: 20px;
+}
+.checkbox:hover {
+    cursor: pointer;
+}
+.uibox button {
+    border: 1px solid cornflowerblue;
+    padding: 5px;
+    background: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.uibox button:hover {
+    background: #ddd;
+}
+
+.current-time {
+    font-size: 20pt;
+}
